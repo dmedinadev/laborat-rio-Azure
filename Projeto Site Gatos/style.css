@@ -1,0 +1,57 @@
+body {
+    text-align:center;
+    background-color: green;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+
+  .page-title {
+    font-family: sans-serif;
+    color: rgb(189, 212, 105);
+    margin: 0 0 20px;
+  }
+  
+  .container-game-01 {
+    display: flex;
+    background-color:darkblue;
+    border-radius: 2%;
+    width: 455px;
+    height: 250px;
+    margin-left: 10%;
+  }
+
+  .container-game-02 {
+    display: flex;
+    background-color:darkblue;
+    border-radius: 2%;
+    width: 455px;
+    height: 250px;
+    margin-left: 20%;
+  }
+
+  .container-game-03 {
+    display: flex;
+    background-color:darkblue;
+    border-radius: 2%;
+    width: 455px;
+    height: 250px;
+    margin-left: 20%;
+  }
+
+  .titulo-game {
+    padding: auto;
+    margin: 0 50px 5px;
+  }
+
+
+  body > img {
+    margin: 0 10px;
+  }
+  
+  .container-video {
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+  }

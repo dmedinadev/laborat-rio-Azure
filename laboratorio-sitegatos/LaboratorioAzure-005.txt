@@ -1,0 +1,43 @@
+************************************************* Etapa 1
+
+Resource Group: RGLab05
+Vnet: Vnetlab-005
+    subnet01-vms
+    subnet02-dados
+
+Criação da Vnet e subnetes.
+
+Criação do NSG para as VM's.
+
+Criação das VM's:
+    webvm01 -
+    user: azureuser (chave ssh)
+    webvm02
+
+Balanceador de carga: weblb05 (standard - tipo: público)
+    front-ip : 20.206.216.198 (ip público)
+    Pool de backend : poolvms
+
+    Regra de entrada do balanceamento
+    Nome: lb-labvms05
+
+    Pontos importantes na configuração do balanceador:
+    - Pool de máquinas
+    - Regras do balanceamento
+
+************************************************* Etapa 2
+
+storage account
+imagenssitegatos
+
+URL das imagens armazenadas no blob:
+https://imagenssitegatos.blob.core.windows.net/sitegato/Gato-preto-1.jpg
+https://imagenssitegatos.blob.core.windows.net/sitegato/Gato-preto-2.jpg
+https://imagenssitegatos.blob.core.windows.net/sitegato/Gato-preto-3.jpg
+https://imagenssitegatos.blob.core.windows.net/sitegato/Gato-preto-4.jpg
+
+
+
+
+
+

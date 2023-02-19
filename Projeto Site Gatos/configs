@@ -1,0 +1,30 @@
+Resource Group: RGSitegatos
+Política para restrição de localidade permitida para criação: Brasil.
+NSG: NSG-VMS
+Vnet: VNET-SiteGatos
+Load Balancer: lb-sitegatos
+    Regra NAT de entrada: lbinbound-nat
+    IP frontend: ipfront-sitegatos
+    Nome IP público: ipsitegatos - 20.206.187.108
+    Pool Máquinas backend: vms-sitegatos
+
+Subnets:
+    VM's: subnet-vms
+    Peering
+    Sotrage Account:
+
+Criação VM's:
+    Ubuntu Server 22.04 lts
+        svm-01 - (azureuser / chave: svm-01) 20.201.122.47
+
+    Script:
+        #!/bin/bash
+        sudo apt update -y
+        sudo apt install apache2 -y
+        sudo chmod -R 777 /var/www/html/index.html
+_________________________________________________________
+Passos:
+
+1º -
+2º -
+3º -
